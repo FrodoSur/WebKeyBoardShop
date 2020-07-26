@@ -1,0 +1,32 @@
+﻿@model IEnumerable<WebKeyBoardShop.Models.KeyBoard>
+@{
+    ViewData["Title"] = "Список смартфонов";
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Магазин Клавиатур</title>
+</head>
+<body>
+    <h3>Клавиатуры</h3>
+    <table>
+        <tr>
+            <td>Название</td>
+            <td>Длительность гарантиии(в годах)</td>
+            <td>Цена</td>
+            <td></td>
+        </tr>
+        @foreach (var keyboard in Model)
+        {
+            <tr>
+                <td>@keyboard.name</td>
+                <td>@keyboard.guaranteeTime</td>
+                <td>@keyboard.price</td>
+                <td><a href="~/Home/Buy/@keyboard.id">Купить</a></td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
