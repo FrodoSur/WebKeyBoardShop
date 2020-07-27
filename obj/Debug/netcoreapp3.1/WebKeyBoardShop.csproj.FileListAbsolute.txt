@@ -52,3 +52,4 @@ C:\Users\Desp\source\repos\WebKeyBoardShop\bin\Debug\netcoreapp3.1\runtimes\win\
 C:\Users\Desp\source\repos\WebKeyBoardShop\obj\Debug\netcoreapp3.1\WebKeyBoardShop.Views.pdb
 C:\Users\Desp\source\repos\WebKeyBoardShop\obj\Debug\netcoreapp3.1\WebKeyBoardShop.csproj.CopyComplete
 C:\Users\Desp\source\repos\WebKeyBoardShop\obj\Debug\netcoreapp3.1\WebKeyBoardShop.genruntimeconfig.cache
+C:\Users\Desp\source\repos\WebKeyBoardShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Buy.cshtml.g.cs

@@ -20,5 +20,19 @@ namespace WebKeyBoardShop.Controllers
         {
             return View(db.KeyBoards.ToList());
         }
+        [HttpGet]
+        public IActionResult Buy(int? id)
+        {
+            if (id == null) return RedirectToAction("Index");
+            ViewBag.PhoneId = id;
+            return View();
+        }
+        [HttpPost]
+        public string Buy(ShoppingCart cart)
+        {
+            db.ShoppingCarts.Add(cart);
+            // сохраняем в бд все изменения
+            return "Благодарим за покупку!";
+        }
     }
 }

@@ -15,21 +15,21 @@ namespace WebKeyBoardShop
                 context.KeyBoards.AddRange(
                     new KeyBoard
                     {
-                        name = "Razer BlackWidow ",
-                        guaranteeTime = 3,
-                        price = 9900
+                        Name = "Razer BlackWidow ",
+                        GuaranteeTime = 3,
+                        Price = 9900
                     },
                     new KeyBoard
                     {
-                        name = "Oklick 980G",
-                        guaranteeTime = 2,
-                        price = 2890
+                        Name = "Oklick 980G",
+                        GuaranteeTime = 2,
+                        Price = 2890
                     },
                     new KeyBoard
                     {
-                        name = "Corsair K55 RGB",
-                        guaranteeTime = 5,
-                        price = 3190 
+                        Name = "Corsair K55 RGB",
+                        GuaranteeTime = 5,
+                        Price = 3190 
                     }
                 );
                 context.SaveChanges();
