@@ -1,7 +1,8 @@
 ﻿@model IEnumerable<WebKeyBoardShop.Models.KeyBoard>
 @{
     ViewData["Title"] = "Список смартфонов";
-    Layout = null;
+    Layout = null; 
+    List<KeyBoard> keys = GetKeyBoards();
 }
 <!DOCTYPE html>
 
@@ -18,8 +19,8 @@
             <td>Цена</td>
             <td></td>
         </tr>
-        @foreach (var keyboard in Model)
-        {
+        @foreach (var keyboard in keys)
+            {
             <tr>
                 <td>@keyboard.Name</td>
                 <td>@keyboard.GuaranteeTime</td>
