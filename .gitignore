@@ -1,2 +1,22 @@
 
 obj/Debug/netcoreapp3.1/WebKeyBoardShop.csprojAssemblyReference.cache
+*.dll
+*.so
+*.json
+Migrations/20200910212107_Initial.Designer.cs
+Migrations/SellContextModelSnapshot.cs
+Migrations/20200910212107_Initial.cs
+obj/Debug/netcoreapp3.1/WebKeyBoardShop.assets.cache
+obj/Debug/netcoreapp3.1/WebKeyBoardShop.csproj.CoreCompileInputs.cache
+obj/Debug/netcoreapp3.1/WebKeyBoardShop.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.1/WebKeyBoardShop.csprojAssemblyReference.cache
+obj/Debug/netcoreapp3.1/WebKeyBoardShop.dll
+obj/Debug/netcoreapp3.1/WebKeyBoardShop.pdb
+obj/project.assets.json
+obj/project.nuget.cache
+obj/WebKeyBoardShop.csproj.nuget.dgspec.json
+obj/WebKeyBoardShop.csproj.nuget.g.props
+WebKeyBoardShop.csproj
+WebKeyBoardShop.csproj.user
+*.pdb
+*.dll
